@@ -12,21 +12,24 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "plum" #"plum", "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+# plum skin 활용하여 색상 설정함. 변경하려면 _sass/minimal-mistakes/skins/_plum.scss 에서 변경하거나
+# 해당 디렉토리 내의 다른 테마로 변경 가능 (minimal-mistakes 기본 제공 테마)
+minimal_mistakes_skin: "plum" # "default" "air", "aqua", ...
 
 # Site Settings
 locale: "ko-KR" #"en-US"
-title: "choiiis Devlog"
+title: "Blog Name Here" # 상단 헤더에 보이는 블로그 명
 title_separator: "&#124;"
 subtitle: # site tagline that appears below site title in masthead
-name: "choiiis"
-description: "choiiis DevLog"
-url: "https://choiiis.github.io"
+name: "your name here" # 블로그 닉네임 설정
+description: "this is my blog!" # 블로그 설명
+url: "https://github-account.github.io" # 블로그 URL
 baseurl: # the subpath of your site, e.g. "/blog"
-repository: "choiiis/choiiis.github.io"
+repository: "github-account/github-account.github.io" # GitHub Repo 이름
 teaser: #
-# logo                     : "/assets/images/meee.svg"
-#"/assets/images/monster.png"
+
+# logo                     : # 블로그명 앞에 로고 추가하고 싶을 경우 사용
 masthead_title: # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute: 200
@@ -65,10 +68,10 @@ google:
   search_engine_id: # YOUR_SEARCH_ENGINE_ID
   instant_search: # false (default), true
 # SEO Related
-google_site_verification: "LKDXdTbkqfYcDLaxd7-n3VyPtaYjoDXQ6axWfVew_VQ"
+google_site_verification:
 bing_site_verification:
 yandex_site_verification:
-naver_site_verification: "adf9ff31fdd5483be60c146ecf49f0bb5ffc89e7"
+naver_site_verification:
 
 # Social Sharing
 twitter:
@@ -90,17 +93,18 @@ analytics:
   provider: "google-gtag"
   # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id: "G-RB5HCLB3C2"
+    tracking_id: "your tracking id here"
     anonymize_ip: # true, false (default)
 
 # Site Author
 author:
-  name: "choiiis"
-  avatar: "/assets/images/meee.svg"
-  #   bio              : "Hamppiness!"
+  name: "your name here" # 블로그 닉네임
+  avatar: "/assets/images/meee.png" # 블로그 프로필 사진
+  #   bio              : "hi all!"
   # location         : "Seoul, Korea"
-  # email            : "bemychoiiis@gmail.com"
-  links:
+  # email            : "youremailhere@xxxxxx.com"
+
+  links: # 사이트 링크
 #     - label: "Email"
 #       icon: "fas fa-fw fa-envelope-square"
 #       # url: "mailto:your.name@email.com"
@@ -113,12 +117,12 @@ author:
 #     - label: "Facebook"
 #       icon: "fab fa-fw fa-facebook-square"
 #       # url: "https://facebook.com/"
-# - label: "GitHub"
-#   icon: "fab fa-fw fa-github"
-#   url: "https://github.com/choiiis"
-# - label: "Instagram"
-#   icon: "fab fa-fw fa-instagram"
-#   url: "https://www.instagram.com/choiiis.dev/"
+#     - label: "GitHub"
+#       icon: "fab fa-fw fa-github"
+#       url: "https://github.com/"
+#     - label: "Instagram"
+#       icon: "fab fa-fw fa-instagram"
+#       url: "https://www.instagram.com/"
 
 # Site Footer
 footer:
