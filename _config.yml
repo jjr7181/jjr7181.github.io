@@ -107,7 +107,7 @@ author:
   name             : "Jay"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "성장중인 개발자"
-  location         : "Jun"
+  #location         : "Jun"
   email            :
   links:
     - label: "Email"
@@ -116,9 +116,9 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
-    - label: "Twitter"
+    - label: "LinkedIn"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
+      url: "https://www.linkedin.com/in/재룡-조-39795029b/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
