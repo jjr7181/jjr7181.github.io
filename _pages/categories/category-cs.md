@@ -1,9 +1,9 @@
 ---
-title: "Git"
+title: "CS"
 layout: category
-permalink: /categories/git/
+permalink: /categories/cs/
 author_profile: true
-taxonomy: Git
+taxonomy: CS
 sidebar:
   nav: "categories"
 ---

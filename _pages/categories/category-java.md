@@ -1,9 +1,9 @@
 ---
-title: "Git"
+title: "Java"
 layout: category
-permalink: /categories/git/
+permalink: /categories/java/
 author_profile: true
-taxonomy: Git
+taxonomy: Java
 sidebar:
   nav: "categories"
 ---
