@@ -1,6 +1,6 @@
 ---
 title: "[크래프톤 정글] 5기 합격 후기"
-excerpt: "크래프톤 정글 5기 합격 후기 및 꿀팁을 공유"
+excerpt: "크래프톤 정글 5기 합격 후기 및 꿀팁!!"
 
 categories:
   - Krafton Jungle
