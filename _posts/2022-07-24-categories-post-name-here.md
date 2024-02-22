@@ -7,7 +7,7 @@ categories:
 tags:
   - [tag1, tag2]
 
-permalink: /git/howtousegit/
+permalink: /git/post-name-here/
 
 toc: true
 toc_sticky: true
