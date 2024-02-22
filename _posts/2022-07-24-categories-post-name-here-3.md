@@ -5,7 +5,7 @@ excerpt: "크래프톤 정글 5기 합격 후기 및 꿀팁!!"
 categories:
   - Krafton Jungle
 tags:
-  - [Krafton Jungle, 크래프톤 정글, 크래프톤 정글 5기]
+  - [Krafton Jungle, Krafton, 크래프톤 정글, 크래프톤 정글 5기]
 
 permalink: /k-jungle/entrance-test/
 
