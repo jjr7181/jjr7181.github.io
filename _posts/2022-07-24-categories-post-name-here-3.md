@@ -44,7 +44,7 @@ last_modified_at: 2024-02-24
 
 <h3>4. 인터뷰</h3>
 <!-- ![pepe](/assets/images/posts_img/pepe.jpg) -->
-<img src="/assets/images/posts_img/pepe.jpg" alt="pepe" width="80%">
+<img src="/assets/images/posts_img/pepe.jpg" alt="pepe" width="60%"><br>
 
 ???? 나 왜 합격???? 그동안 오타니 따라서 운 모은다고 쓰레기를 줍지는 않았지만 안버리고 다녔는데(사실 그냥 안버리는게 맞긴 함) 그동안의 결실인가? 어쨌든 감사합니다. 
 
