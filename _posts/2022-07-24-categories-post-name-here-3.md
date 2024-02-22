@@ -44,7 +44,7 @@ last_modified_at: 2024-02-24
 
 <h3>4. 인터뷰</h3>
 
-<img src="/assets/images/posts_img/pepe.jpg" alt="pepe" width="100px">
+<img src="/assets/images/posts_img/pepe.jpg" alt="pepe" width="80%">
 <!-- ![pepe](/assets/images/posts_img/pepe.jpg) -->
 
 
