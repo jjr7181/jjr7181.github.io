@@ -7,7 +7,7 @@ categories:
 tags:
   - [Krafton Jungle, Krafton, 크래프톤 정글, 크래프톤 정글 5기]
 
-permalink: /k-jungle/entrance-test/
+permalink: /k-jungle/entrance-process-review/
 
 toc: true
 toc_sticky: true
