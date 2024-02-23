@@ -1,6 +1,6 @@
 ---
-title: "[Git] Git 기초지식 #1"
-excerpt: "Git 기초지식 #1"
+title: "[Git] Git 기초지식 #3"
+excerpt: "Git 기초지식 #3"
 
 categories:
   - Git
