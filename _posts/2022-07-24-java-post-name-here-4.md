@@ -41,12 +41,42 @@ Git에서 뭔가를 실행하기 위한 즉, 어떤 명령들을 사용할 때�
 
 ### .gitignore
 
-터미널에 git status를 입력하였을 때 나타나는 untracked files(git에 의해 아직 관리되지 않는 파일)에서 배제하는 것
+터미널에 git status를 입력하였을 때 나타나는 untracked files(git에 의해 아직 관리되지 않는 파일)에서 배제하는 것. .gitignore 파일을 만들어서 ignore하고 싶은 file들을 입력함으로써 배제한다.
 
-## 배제하는 이유
+#### 배제하는 이유
 1. 포함할 필요가 없을 때  
 - 자동으로 생성 또는 다운로드 되는 파일들 (빌드 결과물, 라이브러리)
   
 2. 포함하면 안되는 파일들
 - 보안상 민감함 정보를 담은 파일
 - 따로 관리해야하는 파일  
+
+
+```
+**기본적인 .gitignore 형식**
+
+# 모든 file.c
+file.c
+
+# 최상위 폴더의 file.c
+/file.c
+
+# 모든 .c 확장자 파일
+*.c
+
+# .c 확장자지만 무시하지 않을 파일
+!not_ignore_this.c
+
+# logs란 이름의 파일 또는 폴더와 그 내용들
+logs
+
+# logs란 이름의 폴더와 그 내용들
+logs/
+
+# logs 폴더 바로 안의 debug.log와 .c 파일들
+logs/debug.log
+logs/*.c
+
+# logs 폴더 바로 안, 또는 그 안의 다른 폴더(들) 안의 debug.log
+logs/**/debug.log
+```
