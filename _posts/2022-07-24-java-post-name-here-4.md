@@ -16,8 +16,6 @@ date: 2022-07-24
 last_modified_at: 2022-07-24
 ---
 
-<h2>Git 기초지식 #1</h2>
-
 ### What is Git?  
 
 Git은 VCS(Version Control System) 중 하나로 프로그램의 버전 관리를 위한 툴이다.  
