@@ -5,7 +5,7 @@ excerpt: "Git 기초지식 #1"
 categories:
   - Git
 tags:
-  - [Git]
+  - [Git, VCS]
 
 permalink: /git/post-name-here-4/
 
@@ -37,3 +37,16 @@ Git은 VCS(Version Control System) 중 하나로 프로그램의 버전 관리�
 하나를 정해서 사용해야 하는 것이 아니라,
 Git에서 뭔가를 실행하기 위한 즉, 어떤 명령들을 사용할 때는 CLI 방법을 쓰고, Git상태에서 자세히 살펴보기 위해서는 소스트리 창(GUI)를 사용한다.
 
+---
+
+### .gitignore
+
+터미널에 git status를 입력하였을 때 나타나는 untracked files(git에 의해 아직 관리되지 않는 파일)에서 배제하는 것
+
+## 배제하는 이유
+1. 포함할 필요가 없을 때  
+- 자동으로 생성 또는 다운로드 되는 파일들 (빌드 결과물, 라이브러리)
+  
+2. 포함하면 안되는 파일들
+- 보안상 민감함 정보를 담은 파일
+- 따로 관리해야하는 파일  
