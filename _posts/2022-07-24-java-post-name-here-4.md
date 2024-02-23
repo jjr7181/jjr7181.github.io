@@ -5,7 +5,7 @@ excerpt: "Git 기초지식-2"
 categories:
   - Git
 tags:
-  - [Git, Git이란?, VCS]
+  - [tag1]
 
 permalink: /git/post-name-here-4/
 
