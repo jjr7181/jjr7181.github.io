@@ -78,3 +78,50 @@ logs/*.c
 # logs 폴더 바로 안, 또는 그 안의 다른 폴더(들) 안의 debug.log
 logs/**/debug.log
 ```
+
+---
+
+### Git의 '시간' 관리
+
+untracked file, 수정사항 모두 타임캡슐에 담기  
+`git add (. 또는 파일명)`
+
+타임캡슐 묻기
+`git commit -m "(메세지)"`
+
+\*수정사항만 있을 때!! (새로 추가된 untracked file이 없을 때)
+`git commit -am "(메세지)"`
+
+**Git에서 프로젝트를 과거로 돌리는 방법**
+>reset vs revert
+
+reset - 시간을 과거로 돌리는것, 과거로 돌아가서 이후 흔적은 History에서 지워버림
+`git reset --hard (돌아갈 커밋 해시)`
+
+| revert | reset |
+| ---   | ---  | 
+|  시간을 과거로 돌리는것, 과거로 돌아가서 이후 흔적은 History에서 지워버림   | 되돌리기 원하는 시점의 커밋을 거꾸로 실행 |
+| `git reset --hard (돌아갈 커밋 해시)`| `git revert (되돌릴 커밋 해시)` |
+
+---
+
+### Git의 '차원' 관리
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
