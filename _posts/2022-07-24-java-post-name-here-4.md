@@ -5,7 +5,7 @@ excerpt: "Git 기초지식 #1"
 categories:
   - Git
 tags:
-  - [tag1]
+  - [Git]
 
 permalink: /git/post-name-here-4/
 
