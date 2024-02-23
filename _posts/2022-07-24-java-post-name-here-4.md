@@ -7,13 +7,13 @@ categories:
 tags:
   - [Git, VCS]
 
-permalink: /git/post-name-here-4/
+permalink: /git/study-1/
 
 toc: true
 toc_sticky: true
 
-date: 2022-07-24
-last_modified_at: 2022-07-24
+date: 2024-02-24
+last_modified_at: 2024-02-24
 ---
 
 ### What is Git?  
