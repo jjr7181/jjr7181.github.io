@@ -3,11 +3,11 @@ title: "[Git] Git 기초지식 #2"
 excerpt: "Git 기초지식-2"
 
 categories:
-  - Git
+  - Java
 tags:
   - [tag1]
 
-permalink: /git/post-name-here-4/
+permalink: /java/post-name-here-4/
 
 toc: true
 toc_sticky: true
