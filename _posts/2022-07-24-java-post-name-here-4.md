@@ -1,11 +1,11 @@
 ---
 title: "[Git] Git 기초지식 #1"
-excerpt: "본문의 주요 내용을 여기에 입력하세요"
+excerpt: "Git 기초지식-1"
 
 categories:
   - Git
 tags:
-  - [tag1, tag2]
+  - [Git, Git이란?, VCS]
 
 permalink: /git/post-name-here-4/
 
