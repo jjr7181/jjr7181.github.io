@@ -11,6 +11,7 @@ permalink: /CS/PintOS-project2/
 
 toc: true
 toc_sticky: true
+classes: wide
 
 date: 2024-05-29
 last_modified_at: 2024-05-29
