@@ -1,32 +1,31 @@
 ---
-title: "[PintOS] Project2: Argument Passing 회고"
-excerpt: "Kaist-PintOS Project2: User Programs: Argument Passing"
+title: "[PintOS] Project3: Memory Management 회고"
+excerpt: "Kaist-PintOS Project3: Virtual Memory: Memory Management"
 
 categories:
   - CS
 tags:
   - [PintOS, OS]
 
-permalink: /CS/PintOS-project2/
+permalink: /CS/PintOS-project3-1/
 
 toc: true
 toc_sticky: true
 
-date: 2024-05-29
-last_modified_at: 2024-05-29
+date: 2024-06-07
+last_modified_at: 2024-06-07
 ---
 
-### Argument Passing 구현 과제
+### Virtual Memory
 
-> process_exec() 함수를 수정하여 커맨드 라인의 문자열을 토큰으로 분리하는 기능을 구현해야 한다. 
+> Virtual Memory를 구현하여 여러 개의 프로그램을 동시에 실행하고, 대용량 프로그램이 메인 메모리의 크기에 제약받지 않도록 한다.
 
- 현재 PintOS는 프로그램과 인자를 구분하지 못하는 구조이다. 때문에 프로그램 이름과 인자를 구분하여 스택에 저장하고, 인자를 프로그램에 전달해야 한다.
 
-Argument Passing을 위해서 x86-64의 calling convention에 대한 선행지식이 필요하다.
+
 
 <br>
 
-#### x86-64 Calling Convention
+#### Memory Management
 
 Calling convention은 다음과 같다
 
